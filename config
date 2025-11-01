@@ -1,0 +1,48 @@
+[general]
+framerate = 60
+autosens = 1
+bars = 0
+bar_width = 2
+bar_spacing = 1
+center_align = 1
+max_height = 100
+sleep_timer = 0
+
+[input]
+method = pipewire
+source = auto
+sample_rate = 44100
+sample_bits = 16
+channels = 2
+
+[output]
+method = ncurses
+orientation = bottom
+channels = stereo
+synchronized_sync = 1
+xaxis = none
+show_idle_bar_heads = 1
+
+[color]
+gradient = 1
+gradient_color_1 = '#33ccff'
+gradient_color_2 = '#ff66cc'
+gradient_color_3 = '#ffcc33'
+gradient_color_4 = '#33ff99'
+gradient_color_5 = '#33ccff'
+
+[smoothing]
+noise_reduction = 77
+monstercat = 1
+waves = 0
+
+[eq]
+1 = 1.2
+2 = 1.0
+3 = 1.0
+4 = 1.2
+5 = 1.3
+
+
+
+
